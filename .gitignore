@@ -1,8 +1,11 @@
-# Except this file !.gitignore 
+# Except this file !.gitignore
 .classpath
 .project
 .settings
 target
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 .idea
 .vscode
 .DS_Store
@@ -16,3 +19,11 @@ work
 test/logs
 derby.log
 yarn.lock
+
+mvnw
+mvnw.cmd
+**/mvnw
+**/mvnw.cmd
+
+**/.mvn
+**/target/
